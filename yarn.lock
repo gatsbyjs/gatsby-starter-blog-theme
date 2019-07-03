@@ -5383,6 +5383,11 @@ gatsby-plugin-sharp@^2.0.36:
     sharp "^0.22.1"
     svgo "^1.2.0"
 
+gatsby-plugin-theme-ui@^0.2.1:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-theme-ui/-/gatsby-plugin-theme-ui-0.2.3.tgz#bb04ed12df21462bae4f255914dcd163b728b2f6"
+  integrity sha512-/hPoVvjOQL7awORZtCcEmcjhfDYRdcJA6T4T5vCnQrHqd/tjZC8lSbR7i7tq0qlmXTDFj7aleoWDTiT/xHzwiA==
+
 gatsby-plugin-twitter@^2.0.11:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-twitter/-/gatsby-plugin-twitter-2.1.0.tgz#6d23b29a93f6816180b750fb1efc88ff550ecccd"
@@ -5516,10 +5521,10 @@ gatsby-telemetry@^1.1.2:
     stack-utils "1.0.2"
     uuid "3.3.2"
 
-gatsby-theme-blog@^0.0.10:
-  version "0.0.10"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-blog/-/gatsby-theme-blog-0.0.10.tgz#a1db37beb903dc57574a21799a09b7d7d224b10a"
-  integrity sha512-RqGyifxZHWQyZKvHTR4p7nNYGI6hy1GrkJ8LorisCYaBeYBFI3xrxt5F+31VB8twU2k+/8VLUYo7ulF1n5AMkw==
+gatsby-theme-blog@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/gatsby-theme-blog/-/gatsby-theme-blog-0.0.11.tgz#46a2d91be90b5c5bd777cd295468d4c1886f8568"
+  integrity sha512-K0JBsaf+mEo+P3wXxkC1J428HDtOJzBoRz+xW6gdXNYr0ZC3pn0hZ9CL+eF+VWpRraeYBxHXPrnvX8sDR5pnRQ==
   dependencies:
     "@emotion/core" "^10.0.10"
     "@mdx-js/mdx" "^1.0.15"
@@ -5531,6 +5536,7 @@ gatsby-theme-blog@^0.0.10:
     gatsby-plugin-mdx "^1.0.5"
     gatsby-plugin-react-helmet "^3.0.7"
     gatsby-plugin-sharp "^2.0.36"
+    gatsby-plugin-theme-ui "^0.2.1"
     gatsby-plugin-twitter "^2.0.11"
     gatsby-remark-code-titles "^1.1.0-rc.0"
     gatsby-remark-copy-linked-files "^2.0.9"
@@ -5540,7 +5546,6 @@ gatsby-theme-blog@^0.0.10:
     gatsby-remark-responsive-iframe "^2.1.1"
     gatsby-remark-smartypants "^2.0.8"
     gatsby-source-filesystem "^2.0.23"
-    gatsby-theme-ui "^0.2.0"
     gatsby-transformer-sharp "^2.1.15"
     lodash.merge "^4.6.1"
     prismjs "^1.15.0"
@@ -5551,11 +5556,6 @@ gatsby-theme-blog@^0.0.10:
     typeface-merriweather "0.0.72"
     typeface-montserrat "0.0.54"
     typography-theme-wordpress-2016 "^0.16.18"
-
-gatsby-theme-ui@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-theme-ui/-/gatsby-theme-ui-0.2.0.tgz#057de6b07160e218300f7914f07b036ee7c960bd"
-  integrity sha512-TS5ykhCpcb7/IRJbjDBw0uRytpsh/inJvbpiyrm8IrOGdtdev+3G1qpwJgZ/Qs7mkMYAyFxZ7IwJWIPOqfWqRg==
 
 gatsby-transformer-sharp@^2.1.15:
   version "2.2.1"
