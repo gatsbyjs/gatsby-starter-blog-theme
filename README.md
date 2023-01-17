@@ -51,7 +51,9 @@ gatsby-starter-blog-theme
 │   ├── assets
 │   │   └── avatar.png
 │   └── posts
-│       ├── hello-world.mdx
+│       ├── hello-world
+│       |   ├── index.mdx
+|       |   └── sunset-beach.jpg
 │       └── my-second-post.mdx
 ├── src
 │   └── gatsby-theme-blog
